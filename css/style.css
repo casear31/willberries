@@ -178,3 +178,112 @@ body {
     line-height: 20px;
     font-weight: 900;
 }
+
+.section-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+}
+
+.more{
+    text-decoration: none;
+    color:#262D33;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+    }
+.goods-card {
+    position: relative;
+    text-align: center;
+    padding: 30px 36px 35px 37px;
+
+}
+
+.goods-card .label {
+    position: absolute;
+    left: 18px;
+    top: 18px;
+}
+
+goods-tittle {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262D33;
+}
+
+goods-description {
+    color: #4B5157;
+    font-size: 14px;
+    line-height: 20px;
+}
+.goods-price{
+    margin-top: 30px;
+    color: #262D33;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 900;    
+}
+
+.footer-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer {
+    background: #8F79D4;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+.footer-menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.footer-menu-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.socisal-link {
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+
+.footer-text {
+    color: #E7D9FF;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-line {
+    opacity: 0.5;
+}
+
+.top-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-link-text {
+    margin-right: 15px;
+}
+
+.payment-logo {
+    vertical-align: middle;
+    margin-right: 25px;
+    
+}
