@@ -60,6 +60,7 @@ body {
 .slide {
     padding-top: 90px;
     padding-bottom: 110px;
+    min-height: 568px;
 }
 
 .slide-1 {
@@ -103,6 +104,7 @@ body {
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
+    z-index: 9;
 }
 
 .slider-button{
@@ -135,7 +137,7 @@ body {
 .card-4 {
     padding-top: 35px;
     padding-left: 25px;
-    background: #FF4F52 url(../img/card-image-4.png) no-repeat top right;
+    background: #FF4F52 url(../img/card-image-4.png) no-repeat bottom right;
     background-size: contain;
 }
 
@@ -209,7 +211,7 @@ body {
     top: 18px;
 }
 
-goods-tittle {
+.goods-tittle {
     margin-top: 15px;
     margin-bottom: 5px;
     font-family: 'Roboto Slab', serif;
@@ -218,7 +220,7 @@ goods-tittle {
     color: #262D33;
 }
 
-goods-description {
+.goods-description {
     color: #4B5157;
     font-size: 14px;
     line-height: 20px;
@@ -285,5 +287,44 @@ goods-description {
 .payment-logo {
     vertical-align: middle;
     margin-right: 25px;
-    
+
+}
+
+@media (max-width: 1200px ) {
+    .slide-1 {
+        background-size: cover;
+    }
+
+    .card-4 {
+        background-position: bottom right;
+        background-size: 400px;
+    }
+}
+
+@media (max-width: 992px ) {
+    .slider-nav {
+        display: none;
+    }
+    /* .card-4 {
+        background-position: bottom right;
+        background-size: 500px;
+    } */
+}
+
+@media (max-width: 576px ) {
+    .slide-title {
+        font-size: 36px;
+        line-height: 1.4;
+        margin-bottom: 0;
+    }
+    .card {
+        background-position: left top;
+        padding: 30px;
+        min-height: 300px;
+    }
+
+    .card-4 {
+        background-position: bottom right;
+    }
+
 }
